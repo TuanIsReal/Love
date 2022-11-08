@@ -1,0 +1,35 @@
+@-webkit-keyframes my {
+  0% { color: #eb34b7; }
+  50% { color: #fff;  }
+  100% { color: #eb3a34;  }
+}
+@-moz-keyframes my {
+  0% { color: #eb34b7;  }
+  50% { color: #fff;  }
+  100% { color: #eb3a34;  }
+}
+@-o-keyframes my {
+  0% { color: #eb34b7; }
+  50% { color: #fff; }
+  100% { color: #eb3a34;  }
+}
+@keyframes my {
+  0% { color: #eb34b7;  }
+  50% { color: #fff;  }
+  100% { color: #eb3a34;  }
+}
+.test {
+  text-align: center;
+  left: 43%;
+  top: 42%;
+  background:#000000;
+  font-size:24px;
+  font-weight:bold;
+  -webkit-animation: my 700ms infinite;
+  -moz-animation: my 700ms infinite;
+  -o-animation: my 700ms infinite;
+  animation: my 700ms infinite;
+}
+.test, .test1{
+  position: absolute;
+}
